@@ -14,7 +14,6 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Monserrat", sans-serif;
-  /* background: rgb(151, 138, 179); */
   background: linear-gradient(
     45deg,
     rgba(151, 138, 179, 1) 0%,
@@ -45,11 +44,7 @@ main {
 .header {
   display: flex;
   align-items: center;
-  /* border: 1px solid red; */
   flex-direction: column;
-  /* justify-content: space-between; */
-  /* margin-bottom: 12px; */
-  /* margin-bottom: 16px; */
   margin-bottom: 20px;
 }
 
