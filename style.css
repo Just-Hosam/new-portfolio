@@ -10,4 +10,9 @@ a {
 
 body {
   background: linear-gradient(45deg, #b7abe2 0%, #f6b4b6 100%);
+  font-family: "Roboto Mono";
+}
+
+h1 {
+  font-family: "DM Serif Display";
 }
