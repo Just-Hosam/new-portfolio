@@ -30,23 +30,65 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <main>
-      <header class="header">
-        <div class="title">Software Engineer</div>
-        <h1 class="intro">Hey, <span class="name">I'm Sam</span></h1>
+  <body class="font-mono flex flex-col text-white fill-white min-h-dvh">
+    <main
+      class="flex flex-col justify-center max-w-[700px] p-6 w-full mx-auto flex-1"
+    >
+      <header class="space-y-1">
+        <h3 class="font-medium border-b-white border-b w-fit pl-[1px] pr-[2px]">
+          SOFTWARE ENGINEER
+        </h3>
+        <h1 class="text-6xl font-semibold font-[Montserrat]">Sam Dahrooge</h1>
       </header>
-      <p class="description">Software Engineer with 3+ years of experience.</p>
-      <div class="buttons">
+      <div class="mt-7 space-y-4">
+        <p>
+          Hey! I'm Sam, a software engineer with over 3 years of experience. I
+          like to code and build pretty stuff.
+        </p>
+        <p>
+          I've been working on a personal project called Playward. It's a video
+          game backlog and price tracker. Check it out!
+        </p>
+      </div>
+      <div class="mt-8 space-y-3">
         <a
-          class="button"
+          class="flex items-center border rounded-lg py-4 px-5 w-full"
           rel="noopener noreferrer"
           target="_blank"
           href="resume.pdf"
         >
-          <!-- !Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc. -->
           <svg
-            class="svg"
+            class="h-5 w-5"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 640 640"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M448 128C554 128 640 214 640 320C640 426 554 512 448 512L192 512C86 512 0 426 0 320C0 214 86 128 192 128L448 128zM192 240C178.7 240 168 250.7 168 264L168 296L136 296C122.7 296 112 306.7 112 320C112 333.3 122.7 344 136 344L168 344L168 376C168 389.3 178.7 400 192 400C205.3 400 216 389.3 216 376L216 344L248 344C261.3 344 272 333.3 272 320C272 306.7 261.3 296 248 296L216 296L216 264C216 250.7 205.3 240 192 240zM432 336C414.3 336 400 350.3 400 368C400 385.7 414.3 400 432 400C449.7 400 464 385.7 464 368C464 350.3 449.7 336 432 336zM496 240C478.3 240 464 254.3 464 272C464 289.7 478.3 304 496 304C513.7 304 528 289.7 528 272C528 254.3 513.7 240 496 240z"
+            />
+          </svg>
+          <span class="flex-1 ml-3">Playward</span>
+          <svg
+            class="h-4 w-4 opacity-80"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 640 640"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M384 64C366.3 64 352 78.3 352 96C352 113.7 366.3 128 384 128L466.7 128L265.3 329.4C252.8 341.9 252.8 362.2 265.3 374.7C277.8 387.2 298.1 387.2 310.6 374.7L512 173.3L512 256C512 273.7 526.3 288 544 288C561.7 288 576 273.7 576 256L576 96C576 78.3 561.7 64 544 64L384 64zM144 160C99.8 160 64 195.8 64 240L64 496C64 540.2 99.8 576 144 576L400 576C444.2 576 480 540.2 480 496L480 416C480 398.3 465.7 384 448 384C430.3 384 416 398.3 416 416L416 496C416 504.8 408.8 512 400 512L144 512C135.2 512 128 504.8 128 496L128 240C128 231.2 135.2 224 144 224L224 224C241.7 224 256 209.7 256 192C256 174.3 241.7 160 224 160L144 160z"
+            />
+          </svg>
+        </a>
+        <a
+          class="flex items-center border rounded-lg py-4 px-5 w-full"
+          rel="noopener noreferrer"
+          target="_blank"
+          href="resume.pdf"
+        >
+          <svg
+            class="h-5 w-5"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 384 512"
             aria-hidden="true"
@@ -56,9 +98,9 @@
               d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM112 256l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z"
             />
           </svg>
-          <span class="button-label">Resume</span>
+          <span class="flex-1 ml-3">Resume</span>
           <svg
-            class="external-icon"
+            class="h-4 w-4 opacity-80"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 640"
             aria-hidden="true"
@@ -70,14 +112,13 @@
           </svg>
         </a>
         <a
-          class="button"
+          class="flex items-center border rounded-lg py-4 px-5 w-full"
           rel="noreferrer"
           target="_blank"
           href="https://github.com/Just-Hosam"
         >
-          <!-- !Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc. -->
           <svg
-            class="svg"
+            class="h-5 w-5"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 496 512"
             aria-hidden="true"
@@ -87,9 +128,9 @@
               d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
             />
           </svg>
-          <span class="button-label">Github</span>
+          <span class="flex-1 ml-3">Github</span>
           <svg
-            class="external-icon"
+            class="h-4 w-4 opacity-80"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 640"
             aria-hidden="true"
@@ -101,14 +142,13 @@
           </svg>
         </a>
         <a
-          class="button"
+          class="flex items-center border rounded-lg py-4 px-5 w-full"
           rel="noreferrer"
           target="_blank"
           href="https://www.linkedin.com/in/hosam-dahrooge/"
         >
-          <!-- !Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc. -->
           <svg
-            class="svg"
+            class="h-5 w-5"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
             aria-hidden="true"
@@ -118,9 +158,9 @@
               d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
             />
           </svg>
-          <span class="button-label">LinkedIn</span>
+          <span class="flex-1 ml-3">Linkedin</span>
           <svg
-            class="external-icon"
+            class="h-4 w-4 opacity-80"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 640"
             aria-hidden="true"
