@@ -1,3 +1,30 @@
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("./fonts/roboto_mono/roboto-mono-v31-latin-regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("./fonts/roboto_mono/roboto-mono-v31-latin-600.woff2")
+    format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Serif Display";
+  src: url("./fonts/dm_serif_display/dm-serif-display-v17-latin-regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +37,9 @@ a {
 
 body {
   background: linear-gradient(45deg, #b7abe2 0%, #f6b4b6 100%);
-  font-family: "Roboto Mono";
+  font-family: "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
 h1 {
-  font-family: "DM Serif Display";
+  font-family: "DM Serif Display", Georgia, serif;
 }
